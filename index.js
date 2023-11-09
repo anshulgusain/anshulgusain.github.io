@@ -204,7 +204,7 @@ menuIcon.onclick = () => {
 
     function NewTab() {
       window.open(
-        "https://drive.google.com/file/d/1W_hwssMlapssTtmFdULo34VdAYfUS9yO/view?usp=sharing",
+        "https://drive.google.com/file/d/1pjTHitodTNraaD8ESDEjcV2AgTEJ0cfR/view?usp=drive_link",
         "_blank"
       );
     }
@@ -275,6 +275,6 @@ GitHubCalendar(".calendar", "anshulgusain", { responsive: true });
 // Use a proxy
 GitHubCalendar(".calendar", "anshulgusain", {
    proxy (username) {
-     return fetch(`https://your-proxy.com/github?user=${username}`)
+     return fetch(`https://your-proxy.com/github?user=anshulgusain`)
    }
 });
