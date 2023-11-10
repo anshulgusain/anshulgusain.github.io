@@ -515,7 +515,10 @@ span {
   .skills-card-name {
     color: #7d91b0;
   }
-
+.project-description{
+  font-size: 20px;
+  color: white;
+}
 
   
 /*-----------------------------------Contact----------------------------------------*/
