@@ -637,6 +637,10 @@ span {
   box-shadow: 0 0 1rem var(--bg-carolina-blue);
 }
 
+.deploy{
+  font-size: 40px;
+}
+
 /* ======== BREAKPOINTS */
 
   @media (max-width: 1200px) {
@@ -646,6 +650,7 @@ span {
     }
   }
   @media (max-width: 991px) {
+  
     .header {
       padding: 2rem 3%;
     }
@@ -697,7 +702,7 @@ span {
 
 
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     #menu-icon {
       display: block;
     }
