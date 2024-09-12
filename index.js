@@ -204,7 +204,7 @@ menuIcon.onclick = () => {
 
     function NewTab() {
       window.open(
-        "https://drive.google.com/file/d/1Ugd9j7DJwjBVyfRjPK8s1Y9Ii-8iDCe4/view?usp=sharing",
+        "https://drive.google.com/file/d/1cfi3af4nHXrXc6qWpPmt6oAqTucNXyfZ/view?usp=sharing",
         "_blank"
       );
     }
