@@ -1,186 +1,4 @@
-
-
-// let menuIcon = document.querySelector('#menu-icon');
-// let navbar = document.querySelector('#nav-menu');
-
-// menuIcon.onclick = () => {
-//   menuIcon.classList.toggle('bx-x');
-//   navbar.classList.toggle('active');
-// };
-
-
-// //*=============================== toggle icon navbar ==================================
-
-// // let menuIcon = document.querySelector('#menu-icon');
-// // let navbar = document.querySelector('#nav-menu')
-
-// // menuIcon.onclick = () => {
-// //   menuIcon.classList.toggle('bx-x');
-// //   navbar.classList.toggle('active')
-// // };
-
-// // *=============================== github calendar ==================================
-// GitHubCalendar(".calendar", "RajTupe");
-
-// // or enable responsive functionality:
-// GitHubCalendar(".calendar", "RajTupe", { responsive: true });
-
-// // //*=============================== github calender ==================================
-// // GitHubCalendar(".calendar", "RajTupe");
-
-// // //or enable responsive functionality:
-// // GitHubCalendar(".calendar", "RajTupe", { responsive: true });
-
-
-// // *=============================== resume open in new tab ==================================
-// let resume1 = document.getElementById("resume-button-1").addEventListener("click", NewTab);
-// let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab);
-
-// function NewTab() {
-//   window.open(
-//     "https://drive.google.com/file/d/1aIx7oXswHginslfjiUfM6fRxb4gcTBjX/view?usp=sharing",
-//     "_blank"
-//   );
-// }
-
-// // *=============================== scroll sections active link ==================================
-// let sections = document.querySelectorAll('section');
-// let navlinks = document.querySelectorAll('header nav a');
-
-
-// // *=============================== resume open in new tab ==================================
-
-
-// // let resume1 = document.getElementById("resume-button-1").addEventListener("click", NewTab)
-// // let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab)
-
-// // function NewTab() {
-// //   window.open(
-// //     "https://drive.google.com/file/d/1aIx7oXswHginslfjiUfM6fRxb4gcTBjX/view?usp=sharing",
-// //     "_blank"
-// //   );
-// // }
-
-// // // *=============================== scroll sections active link ==================================
-// // let sections = document.querySelectorAll('section');
-// // let navlinks = document.querySelectorAll('header nav a')
-
-// window.onscroll = () => {
-//   sections.forEach(sec => {
-//     let top = window.scrollY;
-//     let offset = sec.offsetTop - 150;
-//     let height = sec.offsetHeight;
-//     let id = sec.getAttribute('id');
-
-//     if (top >= offset && top < offset + height) {
-//       navlinks.forEach(links => {
-//         links.classList.remove('active');
-//         document.querySelector('header nav a[href*="' + id + '"]').classList.add('active');
-//       });
-//     }
-//   });
-
-//   // *=============================== sticky navbar ==================================
-//   let header = document.querySelector('header');
-//   header.classList.toggle('sticky', window.scrollY > 100);
-
-//   // *=============================== remove toggle icon and navbar when click navbar link(scroll) ==================================
-//   menuIcon.classList.remove('bx-x');
-//   navbar.classList.remove('active');
-// };
-
-// // window.onscroll = () => {
-// //   sections.forEach(sec => {
-// //     let top = window.scrollY;
-// //     let offset = sec.offsetTop - 150;
-// //     let height = sec.offsetHeight;
-// //     let id = sec.getAttribute('id');
-
-// //     if (top >= offset && top < offset + height) {
-// //         navlinks.forEach(links => {
-// //           links.classList.remove('active');
-// //           document.querySelector('header nav a[href*="" + id + ""]').classList.add('active')
-// //         });
-// //     };
-
-// //   });
-// //   // *=============================== sticky navbar ==================================
-   
-// //   let header = document.querySelector('header');
-
-// //   header.classList.toggle('sticky', window.scrollY > 100);
-
-// // // *=============================== remove toggle icon and navbar when click navbar link(scroll) ==================================
-
-// // menuIcon.classList.remove('bx-x');
-// // navbar.classList.remove('active')
-
-// // };
-
-// // *=============================== scroll reveal ==================================
-
-// // // *=============================== scroll reveal ==================================
-// // ScrollReveal({
-// //   distance: '80px',
-// //   duration: 2000,
-// //   delay: 200
-// // });
-
-// // ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-// // ScrollReveal().reveal('.home-img, .skills-container, .project-card, .contact form', { origin: 'bottom' });
-// // ScrollReveal().reveal('.home-content h1', { origin: 'left' });
-// // ScrollReveal().reveal('.home-content p, .about-content', { origin: 'left' });
-
-// // // *=============================== typed.js ==================================
-// // const typed = new Typed('.multiple-text', {
-// //   strings: ['Full Stack Web Developer', 'Backend Developer'],
-// //   typeSpeed: 100,
-// //   backSpeed: 100,
-// //   backDelay: 1000,
-// //   loop: true
-// // });
-
-
-
-// ScrollReveal({
-//   // reset: true,
-//   distance: '80px',
-//   duration: 2000,
-//   delay: 200
-// });
-
-// ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
-// ScrollReveal().reveal('.home-img, .skills-container, .project-card, .contact form', { origin: 'bottom'});
-// ScrollReveal().reveal('.home-content h1', { origin: 'left'});
-// ScrollReveal().reveal('.home-content p, .about-content', { origin:'left'});
-
-// // *===============================  typed js==================================
-
-// const typed = new Typed('.multiple-text', {
-//   strings: ['Full Stack Web Developer', 'Backend Developer'],
-//   typeSpeed: 100,
-//   backSpeed: 100,
-//   backdelay: 1000,
-//   loop: true
-// })
-
-
-
-// GitHubCalendar(".calendar", "rajtupe987");
-
-// // or enable responsive functionality:
-// GitHubCalendar(".calendar", "rajtupe987", { responsive: true });
-
-// // Use a proxy
-// GitHubCalendar(".calendar", "rajtupe987", {
-//    proxy (username) {
-//      return fetch(`https://your-proxy.com/github?user=${username}`)
-//    }
-// });
-
-
-
-//*=============================== toggle icon navbar ==================================
+//=============================== toggle icon navbar ==================================
 
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('#nav-menu')
@@ -190,27 +8,14 @@ menuIcon.onclick = () => {
   navbar.classList.toggle('active')
 };
 
-// *=============================== github calender ==================================
-    GitHubCalendar(".calendar", "Anshul");
+//=============================== resume open in new tab ==================================
 
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", "Anshul", { responsive: true });
+document.getElementById("resume-button-2").addEventListener("click", function (e) {
+  // Let the default download behavior work — no Google Drive redirect needed
+});
 
-// *=============================== resume open in new tab ==================================
-
-
-    let resume1 = document.getElementById("resume-button-1").addEventListener("click", NewTab)
-    let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab)
-
-    function NewTab() {
-      window.open(
-        "https://drive.google.com/file/d/1QSDHU25x2LwAWoqKV7BgBnV9a1jhrS_5/view?usp=sharin",
-        "_blank"
-      );
-    }
-
-// *=============================== scroll sections active link ==================================
-let sections = document.querySelectorAll('section');
+//=============================== scroll sections active link ==================================
+let sections = document.querySelectorAll('section, #github-stats, #contact');
 let navlinks = document.querySelectorAll('header nav a')
 
 window.onscroll = () => {
@@ -223,58 +28,84 @@ window.onscroll = () => {
     if(top >= offset && top < offset + height) {
         navlinks.forEach(links => {
           links.classList.remove('active');
-          document.querySelector('header nav a[href*=' + id + ']').classList.add('active')
+          let match = document.querySelector('header nav a[href*=' + id + ']');
+          if (match) match.classList.add('active');
         });
     };
 
   });
-  // *=============================== sticky navbar ==================================
-   
+  //=============================== sticky navbar ==================================
+
   let header = document.querySelector('header');
 
   header.classList.toggle('sticky', window.scrollY > 100);
 
-// *=============================== remove toggle icon and navbar when click navbar link(scroll) ==================================
+  //=============================== remove toggle icon and navbar when click navbar link(scroll) ==================================
 
-menuIcon.classList.remove('bx-x');
-navbar.classList.remove('active')
+  menuIcon.classList.remove('bx-x');
+  navbar.classList.remove('active')
 
 };
 
-// *=============================== scroll reveal ==================================
+//=============================== scroll reveal ==================================
 
 ScrollReveal({
-  // reset: true,
   distance: '80px',
   duration: 2000,
   delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin:'top'});
-ScrollReveal().reveal('.home-img, .skills-container, .project-card, .contact form', { origin:'bottom'});
-ScrollReveal().reveal('.home-content h1', { origin:'left'});
-ScrollReveal().reveal('.home-content p, .about-content', { origin:'left'});
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .skills-container, .project-card, .project-description, .contact form', { origin: 'bottom', distance: '40px' });
+ScrollReveal().reveal('.home-content h1', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'left' });
+ScrollReveal().reveal('.timeline-item, .service-card, .achievement-card, .testimonial-card', { origin: 'bottom', distance: '30px', interval: 100 });
 
-// *===============================  typed js==================================
+//=============================== typed js ==================================
 
 const typed = new Typed('.multiple-text', {
-  strings: ['Full Stack Web Developer', 'MERN-Stack Developer'],
-  typeSpeed: 100,
-  backSpeed: 100,
-  backdelay: 1000,
+  strings: [
+    'Full Stack Engineer',
+    'MERN-Stack Developer',
+    'TypeScript + Next.js',
+    'AI & Automation Builder'
+  ],
+  typeSpeed: 80,
+  backSpeed: 50,
+  backDelay: 1500,
   loop: true
-})
-
-
-
-GitHubCalendar(".calendar", "anshulgusain");
-
-// or enable responsive functionality:
-GitHubCalendar(".calendar", "anshulgusain", { responsive: true });
-
-// Use a proxy
-GitHubCalendar(".calendar", "anshulgusain", {
-   proxy (username) {
-     return fetch(`https://your-proxy.com/github?user=anshulgusain`)
-   }
 });
+
+//=============================== count-up stats (hero + achievements) ==================================
+// Animates any element with [data-count] from 0 to its target once it scrolls into view.
+
+function animateCount(el) {
+  const target = parseInt(el.getAttribute('data-count'), 10) || 0;
+  const suffix = el.getAttribute('data-suffix') || '';
+  const duration = 1200;
+  const start = performance.now();
+
+  function tick(now) {
+    const progress = Math.min((now - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+    el.textContent = Math.round(eased * target) + suffix;
+    if (progress < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+
+const countEls = document.querySelectorAll('[data-count]');
+if ('IntersectionObserver' in window && countEls.length) {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCount(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.4 });
+
+  countEls.forEach(el => observer.observe(el));
+} else {
+  countEls.forEach(animateCount);
+}
