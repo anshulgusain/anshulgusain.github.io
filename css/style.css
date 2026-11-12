@@ -1114,3 +1114,147 @@ textarea:focus-visible {
     transform: none;
   }
 }
+
+/* ─── Recruiter-focused additions ─────────────────────────────────────────── */
+
+.hire-link {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--bg);
+  background: var(--amber);
+  padding: 7px 13px;
+  margin-left: 4px;
+  transition: background 0.2s;
+}
+.hire-link:hover {
+  background: var(--orange);
+}
+.hero-actions .button span {
+  color: inherit;
+}
+
+/* Featured case study */
+.case-study {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 2px solid var(--amber);
+  padding: 28px;
+}
+.case-shot {
+  margin: 0;
+}
+.case-shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border-strong);
+  background: #f6f6f3;
+}
+.case-shot figcaption {
+  font-size: 12.5px;
+  color: var(--muted);
+  margin-top: 10px;
+}
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  margin: 30px 0;
+  border-block: 1px solid var(--border);
+}
+.case-grid > div {
+  padding: 24px 24px 24px 0;
+}
+.case-grid > div + div {
+  padding-left: 24px;
+  border-left: 1px solid var(--border);
+}
+.case-grid h3 {
+  font: 600 11px var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--amber);
+  margin: 0 0 10px;
+}
+.case-grid p {
+  margin: 0;
+  color: var(--secondary);
+  font-size: 14px;
+}
+.case-detail {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 36px;
+  align-items: start;
+}
+.case-detail .feature-block ul {
+  grid-template-columns: 1fr;
+  margin-bottom: 22px;
+}
+.case-detail .tag-list {
+  margin-bottom: 0;
+}
+
+/* AutoStack card: npx command inside the card */
+.project .command {
+  margin-top: 22px;
+  max-width: 360px;
+}
+
+/* About without a second portrait */
+.about-grid.two {
+  grid-template-columns: 0.75fr 1.5fr;
+}
+
+/* Contact: what I'm looking for */
+.looking-for {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 22px;
+  display: grid;
+  gap: 8px;
+}
+.looking-for li {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 12px;
+  font-size: 14px;
+  color: var(--secondary);
+}
+.looking-for strong {
+  font: 600 10px var(--mono);
+  text-transform: uppercase;
+  color: var(--muted);
+  padding-top: 3px;
+}
+
+@media (max-width: 960px) {
+  .case-detail {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 767px) {
+  .hire-link {
+    margin: 0;
+  }
+  .case-study {
+    padding: 18px;
+  }
+  .case-grid {
+    grid-template-columns: 1fr;
+  }
+  .case-grid > div,
+  .case-grid > div + div {
+    padding: 18px 0;
+    border-left: 0;
+  }
+  .case-grid > div + div {
+    border-top: 1px solid var(--border);
+  }
+  .about-grid.two {
+    grid-template-columns: 1fr;
+  }
+  .hero-portrait {
+    margin-top: 28px;
+  }
+}
